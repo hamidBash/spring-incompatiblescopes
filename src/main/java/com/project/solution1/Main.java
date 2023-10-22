@@ -15,6 +15,7 @@ public class Main {
         Thread.sleep(2000);
         System.out.println(user1.getCar());
 
+        Thread.sleep(1000);
         User user2 = context.getBean(User.class);
         System.out.println(user1);
         System.out.println(user2);

@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 @Configuration
+@ComponentScan(basePackages="com")
 public class AppConfig {
 
     @Bean
@@ -13,10 +14,10 @@ public class AppConfig {
     public Car car(){
         return new Car();
     }
-
-    @Bean
-    public User user(){
-        return new User();
-    }
+//
+//    @Bean
+//    public User user(){
+//        return new User();
+//    }
 
 }

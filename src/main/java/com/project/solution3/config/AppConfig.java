@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Scope;
 public class AppConfig {
 
     @Bean
-    @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+    @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE, proxyMode=ScopedProxyMode.TARGET_CLASS)
     public Car car(){
         return new Car();
     }

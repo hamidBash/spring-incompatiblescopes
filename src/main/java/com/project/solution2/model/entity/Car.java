@@ -2,6 +2,8 @@ package com.project.solution2.model.entity;
 
 import java.time.LocalDateTime;
 
+//@Component
+//@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Car {
     private int id;
     private String name;
