@@ -7,9 +7,19 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="local-tid-central-repo" />
+      <option name="name" value="local tid central repo" />
+      <option name="url" value="http://lib.tiddev.com/content/groups/local-repo/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="local-tid-central-repo-snapshot" />
+      <option name="name" value="tid central repository" />
+      <option name="url" value="http://lib.tiddev.com/content/repositories/snapshots/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />

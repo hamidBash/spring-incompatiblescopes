@@ -5,14 +5,14 @@ import org.springframework.context.ApplicationContext;
 
 public class User {
 
-    @Autowired
-    private Car car;
-
 //    @Autowired
-//    private ApplicationContext applicationContext;
+//    private Car car;
+
+    @Autowired
+    private ApplicationContext applicationContext;
 
     public Car getCar() {
-        return car;
+        return applicationContext.getBean(Car.class);
     }
 
 }
