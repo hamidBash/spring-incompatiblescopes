@@ -1,6 +1,7 @@
 package com.project.solution2;
 
 import com.project.solution2.config.AppConfig;
+import com.project.solution2.model.entity.User;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {

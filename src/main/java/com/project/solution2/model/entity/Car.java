@@ -1,5 +1,9 @@
 package com.project.solution2.model.entity;
 
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
 import java.time.LocalDateTime;
 
 //@Component

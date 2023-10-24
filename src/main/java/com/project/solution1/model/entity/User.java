@@ -2,6 +2,7 @@ package com.project.solution1.model.entity;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 
 public class User implements ApplicationContextAware {
 
